@@ -62,11 +62,14 @@ h1{
     display: flex;
     color:purple;
     /* background-color:rgb(57, 59, 59); */
-    background: -webkit-linear-gradient(left, rgb(214, 214, 9), #d030d3);
+    background:  -webkit-linear-gradient(left, rgb(40, 176, 47), #b7e10b);/*-webkit-linear-gradient(left, rgb(214, 214, 9), #d030d3);*/
     align-items: center;
     justify-content: space-between;
     border-radius: 5px;
     height: 10vh;
+}
+.nav-color{
+    background: -webkit-linear-gradient(left, rgb(65, 212, 134), #5a89f7);
 }
 .nav-bar h2{
     font-size: 2em;
@@ -157,7 +160,7 @@ a img{
 }
 .projects {
     min-height: 90vh;
-    background-color: rgb(216, 201, 179);
+    background-color: rgb(176, 219, 132);/*rgb(216, 201, 179);*/
     padding-bottom: 20px;
     /* text-align: center; */
 }
